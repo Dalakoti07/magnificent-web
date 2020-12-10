@@ -122,6 +122,7 @@ button:focus {
 .modal-container {
   background-color: rgba(0, 0, 0, 0.6);
   display: none;
+  /* because of position fixed and top, left , right and bottom as 0 we get it takes whole webpage */
   position: fixed;
   top: 0;
   left: 0;
